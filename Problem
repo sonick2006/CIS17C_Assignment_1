@@ -1,0 +1,17 @@
+### Problem 2: Bank Account System
+Design a bank account system with the following features:
+
+Requirements:
+- Create savings and checking accounts
+- Deposit and withdraw money
+- Transfer between accounts
+- Calculate interest for savings accounts
+- Generate monthly statements
+- Implement transaction logging
+
+Implementation Tasks:
+1. Create abstract Account class
+2. Implement SavingsAccount and CheckingAccount classes
+3. Add Transaction class for logging
+4. Implement Bank class to manage accounts
+5. Add exception handling for invalid operations
