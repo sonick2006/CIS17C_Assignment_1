@@ -1,17 +1,18 @@
-### Problem 2: Bank Account System
-Design a bank account system with the following features:
+### Problem 3: Restaurant Ordering System
+Design a restaurant ordering system:
 
 Requirements:
-- Create savings and checking accounts
-- Deposit and withdraw money
-- Transfer between accounts
-- Calculate interest for savings accounts
-- Generate monthly statements
-- Implement transaction logging
+- Menu management (add/remove items)
+- Order creation and modification
+- Table management
+- Payment processing
+- Kitchen order queue
+- Sales reporting
 
 Implementation Tasks:
-1. Create abstract Account class
-2. Implement SavingsAccount and CheckingAccount classes
-3. Add Transaction class for logging
-4. Implement Bank class to manage accounts
-5. Add exception handling for invalid operations
+1. Create MenuItem, Order, and Table classes
+2. Implement Restaurant class
+3. Use queue data structure for kitchen orders
+4. Add order status tracking
+5. Implement basic reporting functionality
+
