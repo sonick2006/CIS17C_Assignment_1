@@ -18,3 +18,6 @@ Key Features:
         Completing an order clears the table and adds the total to restaurant sales.
     Sales Reporting:
         Displays the total amount earned from completed orders.
+
+
+video link: https://youtu.be/JoEGxKnZZmk

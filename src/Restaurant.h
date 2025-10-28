@@ -23,12 +23,10 @@ enum class OrderStatus {
 };
 
 struct Order{
-    
         int orderID;
         int tableID;
         std::vector<OrderItem> items;
         OrderStatus status = OrderStatus::Created;
-
 };
 
 struct Table{
@@ -61,6 +59,7 @@ class Restaurant{
 
         void removeMenuItem(int id){
             menu.erase(id);
+            nextMenuItemID--;
         }
 
         int addTable(){

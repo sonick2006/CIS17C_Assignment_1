@@ -8,7 +8,13 @@ int main(){
     int table1 = r.addTable();
     r.addMenuItem("Burger", 8.50);
     r.addMenuItem("Fries", 3.00);
+    r.addMenuItem("Mudpie", 100.50);
 
+    r.printMenu();
+    std::cout << "\n";
+    Sleep(5000);
+
+    r.removeMenuItem(3);
     r.printMenu();
     std::cout << "\n";
     Sleep(5000);
